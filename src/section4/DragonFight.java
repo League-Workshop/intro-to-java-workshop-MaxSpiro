@@ -70,7 +70,7 @@ public class DragonFight {
 			
 	   //  15.  Else
 		else {
-		JOptionPane.showMessageDialog(null,"Your health is "+playerHealth+". \nThe dragon's health is "+dragonHealth+".");	
+		JOptionPane.showMessageDialog(null,"Your health is "+playerHealth+". \nThe dragon's health is "+dragonHealth+".\n The dragon did "+dragonDamage+" damage.\n You did "+playerDamage+" damage.");	
 		}
 		}
 			//-- Pop up a message that tells the their current health and the dragon's currently health (Bonus: Also display the amount of health that was lost for each player this round)
